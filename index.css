@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-image: url(./marek-slomkowski-5-IvgD4Utzg-unsplash.jpg);
+    /* background-position: 50px; */
+    background-size: cover;
+ 
+
+}
+
+
+body{
+    position: relative;
+}
+
+#buttons{
+    display: grid;
+     justify-content: center;
+     grid-template-columns: 100px 100px 100px 100px;
+   height: 100px;
+    gap: 10px;
+     align-items: center;
+     margin: 220px;
+     text-align: center;
+}
+
+audio{
+    display: none;
+}
+
+button
+{
+  height: 100px;
+  text-align: center;
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid burlywood;
+
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
